@@ -1,0 +1,68 @@
+/*fonts*/
+
+@import url('https://fonts.googleapis.com/css?family=Exo+2|Indie+Flower|Rock+Salt');
+
+
+/*nav*/
+
+.navbar {
+    background-color: #ffff00;
+    padding: 0;
+    margin: 0;
+}
+
+
+.navbar-inverse .navbar-brand{
+    font-size: 42px;
+    color:#cc00cc;
+
+}
+
+.navbar-inverse .navbar-nav>li>a{
+    color:black;
+    font-size: 24px
+}
+
+/*section*/
+
+section {
+    background-image: url('/assets/images/mixer-2624712_960_720.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height:100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.tracks-here{
+    padding:30%;
+}
+
+.player-here{
+    padding:30%;
+}
+
+/*footer*/
+
+footer {
+    background-color: #000000;
+    margin: auto;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    position: static;
+}
+
+.copyright p {
+    color: white;
+    padding-left: 20px;
+ 
+}
+
+.social-links {
+    font-size: 42px;
+    padding-right: 35px;
+    text-align: right;
+}
