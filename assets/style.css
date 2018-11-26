@@ -12,14 +12,14 @@
 }
 
 
-.navbar-inverse .navbar-brand{
+.navbar-inverse .navbar-brand {
     font-size: 42px;
-    color:#cc00cc;
+    color: #cc00cc;
 
 }
 
-.navbar-inverse .navbar-nav>li>a{
-    color:black;
+.navbar-inverse .navbar-nav>li>a {
+    color: black;
     font-size: 24px
 }
 
@@ -29,19 +29,23 @@ section {
     background-image: url('/assets/images/mixer-2624712_960_720.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
-    height:100%;
-    width: 100%;
+   min-height: 100%;
+    min-width: 100%;
     background-position: center;
     background-size: cover;
 }
 
 
-.tracks-here{
-    padding:30%;
+.music-tracks {
+    font-size: 32px;
+    padding: 25px;
+    margin: 25px;
 }
 
-.player-here{
-    padding:30%;
+.music-player-picture {
+    float: right;
+    padding: 25px;
+    margin: 25px;
 }
 
 /*footer*/
@@ -52,13 +56,13 @@ footer {
     width: 100%;
     bottom: 0;
     left: 0;
-    position: static;
+    position: absolute;
 }
 
 .copyright p {
     color: white;
     padding-left: 20px;
- 
+
 }
 
 .social-links {
