@@ -1,0 +1,87 @@
+/*fonts*/
+
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+
+
+
+/*body*/
+
+body {
+    background: url('../images/pic4.jpg') no-repeat center center fixed;
+    min-height: 100%;
+    min-width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*header*/
+
+.social-links {
+    font-size: 42px;
+    padding-right: 35px;
+    text-align: right;
+
+}
+
+
+/*nav*/
+
+.navbar {
+    text-align: center;
+}
+
+.nav {
+
+    position: relative;
+    display: inline-block;
+    color: black;
+    font-family: 'Righteous', cursive;
+    font-size: 22px;
+    text-shadow: 1px 1px black;
+}
+
+.nav-pills>li+li {
+    margin-left: 10px;
+}
+
+/*
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:hover,
+.nav-pills>li.active>a:focus {
+    background-color: rgba(255, 255, 255, .1);
+    color: #660066;
+}
+*/
+
+a {
+    color: #660066;
+}
+
+.name-header p {
+    padding-top: 100px;
+    font-family: 'Righteous', cursive;
+    font-size: 48px;
+    text-shadow: 3px 3px black;
+    text-align: center;
+    color: #660066;
+
+}
+.mixes {
+        padding-top: 100px;
+        text-align: center;
+    }
+
+    .profile {
+        padding: 35px;
+        border-radius: 50%
+    }
+    .profile-desc {
+        padding-top: 135px;
+    }
+
+.message-button{
+    display:inline-block;
+    text-align: center;
+}
